@@ -10,5 +10,9 @@ public class enterGame : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
+    public void StartAR()
+    {
+        SceneManager.LoadScene("AR");
+    }
 
 }
